@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="file-info">
+            <img src="notes.png" alt="File Icon" class="file-icon">
+            <p class="file-name">how to earn money online</p>
+            <p class="download-disabled">DOWNLOAD NOW</p>
+        </div>
+
+        <div class="payment-options">
+            <div class="option">
+                <h3>Pay via QR Code</h3>
+                <button id="downloadQrBtn" class="btn">Download QR</button>
+            </div>
+
+            <div class="option">
+                <h3>View QR Code</h3>
+                <img src="qrcode.jpg" alt="QR Code" id="qrCode" class="qr-code blurred">
+                <button id="viewQrBtn" class="btn">View QR</button>
+            </div>
+
+            <div class="option">
+                <h3>Pay via UPI</h3>
+                <form>
+                    <script src="https://checkout.razorpay.com/v1/payment-button.js" 
+                        data-payment_button_id="pl_NfsSXorAEr3yfy" async></script>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

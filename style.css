@@ -1,0 +1,57 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.file-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.file-icon {
+    width: 100px;
+    height: 100px;
+}
+.file-name {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.download-disabled {
+    color: grey;
+    cursor: not-allowed;
+}
+.payment-options {
+    display: flex;
+    justify-content: space-between;
+}
+.option {
+    width: 30%;
+    text-align: center;
+}
+.btn {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #005f73;
+}
+.blurred {
+    filter: blur(8px);
+}
+.qr-code {
+    width: 100px;
+    height: 100px;
+    margin: 10px 0;
+}
